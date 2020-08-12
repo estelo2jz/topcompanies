@@ -1,0 +1,148 @@
+// logo styles
+.logo-container {
+  background-color: #525779;
+  padding: 10px;
+
+  img {
+    height: 10%;
+    width: 10%;
+  }
+}
+
+
+// Header styles
+.header-container {
+  background-color: #525779;
+  color: white;
+  padding: 10px;
+
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+
+  }
+  
+}
+
+// cart styles
+.cart ion-icon {
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+// Nav styles
+/*
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+*/
+
+.navbar a:hover {
+  color: rgb(253, 253, 253);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #525779;
+
+  .navbar-heading {
+    font-size: 1.5em;
+    color: white;
+    padding: 5PX;
+    h2 {
+      font-family: 'Lobster', cursive;
+    }
+  }
+}
+
+.nav-cart {
+  background: #ffbb00;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.navbar__link {
+  margin: 1em;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .3em;
+  text-indent: .3em;
+  color: #ffffff;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar__link--active {
+  border-bottom: 3px solid #ffffff;
+  transition: border-bottom .5s ease-in-out;
+}
+
+
+@media(max-width: 500px) {
+  .navbar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 0.5em;
+
+
+  }
+}
+
+@media(max-width: 500px) {
+  .navbar__link {
+    margin: 1em;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: .3em;
+    text-indent: .3em;
+    color: #ffffff;
+    border-bottom: 1px solid transparent;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .navbar__link:hover {
+    transform: translateY(-2px);
+  }
+  
+  .navbar__link--active {
+    border-bottom: 1px solid #ffffff;
+  }  
+  .header-container {
+    font-size: 10px;
+  }
+}
