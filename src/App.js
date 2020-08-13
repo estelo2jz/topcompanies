@@ -5,6 +5,7 @@ import './App.css';
 
 import Header from './components/Header';
 import NavBar from './components/NavBar';
+import Summary from './components/Summary';
 
 import SmallCon from './components/Small/SmallCon';
 import MediumCon from './components/Medium/mediumcon';
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <Summary />
         <NavBar />
         <Switch>
           <Route path="/small" component={SmallTest} />

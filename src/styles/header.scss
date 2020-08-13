@@ -1,13 +1,14 @@
-.header-outer {
+.header-main-outer {
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
   background-color: #0e153a;
 
-  .header-container {
+  .header-main-container {
+    font-family: 'Oswald', sans-serif;
     height: 100%;
-    .header-name {
+    .header-main-name {
       color: white;
       margin-bottom: -70px;
       padding-left: 20px;
@@ -27,14 +28,14 @@
       height: 100%;
       padding: 20px;
       .top-name {
-        color: yellow;
+        color: #ffd615;
         font-size: 3em;
         h1 {
           margin: 0;
         }
       }
       .bottom-name {
-        color: white;
+        color: #fdfdfd;
         font-size: 5em;
         margin-top: -70px;
         
@@ -43,5 +44,26 @@
         }
       }
     }
+  }
+}
+
+// Summary styles
+.summary-container {
+  background-color: #ffd615;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+
+  h1 {
+    font-size: 2.5em;
+    font-family: 'EB Garamond', serif;
+  }
+
+  p {
+    width: 800px;
+    font-size: 1.3em;
+    line-height: 2;
+    font-family: 'EB Garamond', serif;
   }
 }

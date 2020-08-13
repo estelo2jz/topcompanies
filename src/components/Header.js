@@ -3,9 +3,9 @@ import '../styles/main.scss';
 
 function Header() {
   return (
-    <div className="header-outer">
-      <div className="header-container">
-        <div className="header-name">
+    <div className="header-main-outer">
+      <div className="header-main-container">
+        <div className="header-main-name">
           <h1>Entrepreneur. |</h1>
         </div>
         <div className="top-container">
