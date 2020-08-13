@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../styles/company.scss';
 
-import Logo8 from '../../images/logo8.png';
-import Bg8 from '../../images/bg/bg8.png';
+import Logo11 from '../../images/logo11.png';
+import Bg11 from '../../images/bg/bg11.png';
 
-export default class Smalleight extends Component {
+export default class Smalleleven extends Component {
   constructor() {
     super();
 
@@ -24,19 +24,19 @@ export default class Smalleight extends Component {
           <div onClick={() => this.operation()}>
             <div className="company-grid">
               <div className="company-div__number">
-                <h2>8</h2>
+                <h2>11</h2>
               </div>
               <div className="company-div__logo">
-                <img src={Logo8} />
+                <img src={Logo11} />
               </div>
               <div  className="company-div__name">
-                <p>Serur Agencies</p>
+                <p>Cool Breeze Beverages</p>
               </div>
               <div className="company-div__location">
-                <p>Wilmington, Mass.</p>
+                <p>Tampa, Fla.</p>
               </div>
               <div className="company-div__sector">
-                <p>Life Insurance, Annuities and Retirement Investment</p>
+                <p>Distribution, Logistics, and Freight</p>
               </div>
             </div>
           </div>
@@ -56,16 +56,16 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Serur Agencies is one of the fastest growing subsidiaries for the American income branch of Torchmark Corporation. Serur Agencies handles supplemental benefits to individuals and organizations globally.</p>
+          <p>Cool Breeze Beverages is an international distribution company. It carries products, provides rental machines and services on bar equipment/machines.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
-            <img className="" src={Bg8} />
+            <img className="" src={Bg11} />
           </div>
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p> Wilmington, Mass.</p>
+              <p> Tampa, Fla.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
@@ -73,15 +73,15 @@ function Bio() {
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Life Insurance, Annuities and Investment</p>
+              <p>Distribution, Logistics, and Freight</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>70</p>
+              <p>37</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="http://www.SerurAgencies.com">http://www.SerurAgencies.com</a></p>                        
+              <p><a href="https://www.coolbreezebeverages.com/">https://www.coolbreezebeverages.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

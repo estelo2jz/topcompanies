@@ -8,14 +8,22 @@ import Smallsix from './smallsix';
 import Smallseven from './smallseven';
 import Smalleight from './smalleight';
 import Smallnine from './smallnine';
+import Smallten from './smallten';
+import Smalleleven from './smalleleven';
+import Smalltwelve from './smalltwelve';
+import Smallthirteen from './smallthirteen';
+import Smallfourteen from './smallfourteen';
+import Smallfifteen from './smallfifteen';
 
 import CompanyNav from '../CompanyNav';
 
 export default class SmallCon extends Component {
   render() {
     return (
-      <div>
-        <CompanyNav />
+      <div className="con-container">
+       <div>
+         <CompanyNav />
+       </div>
 
         <div>
           <Smallone />
@@ -27,6 +35,13 @@ export default class SmallCon extends Component {
           <Smallseven/>
           <Smalleight />
           <Smallnine />
+
+          <Smallten />
+          <Smalleleven />
+          <Smalltwelve />
+          <Smallthirteen />
+          <Smallfourteen />
+          <Smallfifteen />
         </div>
       </div>
     )

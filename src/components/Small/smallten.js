@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../styles/company.scss';
 
-import Logo8 from '../../images/logo8.png';
-import Bg8 from '../../images/bg/bg8.png';
+import Logo10 from '../../images/logo10.png';
+import Bg10 from '../../images/bg/bg10.png';
 
-export default class Smalleight extends Component {
+export default class Smallten extends Component {
   constructor() {
     super();
 
@@ -24,10 +24,10 @@ export default class Smalleight extends Component {
           <div onClick={() => this.operation()}>
             <div className="company-grid">
               <div className="company-div__number">
-                <h2>8</h2>
+                <h2>10</h2>
               </div>
               <div className="company-div__logo">
-                <img src={Logo8} />
+                <img src={Logo10} />
               </div>
               <div  className="company-div__name">
                 <p>Serur Agencies</p>
@@ -36,7 +36,7 @@ export default class Smalleight extends Component {
                 <p>Wilmington, Mass.</p>
               </div>
               <div className="company-div__sector">
-                <p>Life Insurance, Annuities and Retirement Investment</p>
+                <p>Mobile Marketing Technology</p>
               </div>
             </div>
           </div>
@@ -60,7 +60,10 @@ function Bio() {
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
-            <img className="" src={Bg8} />
+            <img className="" src={Bg10} />
+          </div>
+          <div>
+
           </div>
           <div className="bio-right-container">
             <div className="bio-single">
@@ -69,15 +72,15 @@ function Bio() {
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2015</p>
+              <p>2013</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Life Insurance, Annuities and Investment</p>
+              <p>Mobile Marketing Technology</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>70</p>
+              <p>66</p>
             </div>
             <div className="bio-single">
               <p>Website</p>

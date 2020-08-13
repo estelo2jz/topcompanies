@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import '../styles/navbar.scss';
+
 function NavBar(props) {
   console.log(props)
   
@@ -22,7 +24,7 @@ function NavBar(props) {
         exact
         activeClassName="navbar__link--active"
         className="navbar__link"
-        to="/smallcon"
+        to="/small"
       >
         <p>Small</p>
       </NavLink>

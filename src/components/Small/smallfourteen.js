@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../styles/company.scss';
 
-import Logo8 from '../../images/logo8.png';
-import Bg8 from '../../images/bg/bg8.png';
+import Logo14 from '../../images/logo14.png';
+import Bg14 from '../../images/bg/bg14.png';
 
-export default class Smalleight extends Component {
+export default class Smallfourteen extends Component {
   constructor() {
     super();
 
@@ -24,19 +24,19 @@ export default class Smalleight extends Component {
           <div onClick={() => this.operation()}>
             <div className="company-grid">
               <div className="company-div__number">
-                <h2>8</h2>
+                <h2>14</h2>
               </div>
               <div className="company-div__logo">
-                <img src={Logo8} />
+                <img src={Logo14} />
               </div>
               <div  className="company-div__name">
-                <p>Serur Agencies</p>
+                <p>Qualbe Marketing Group</p>
               </div>
               <div className="company-div__location">
-                <p>Wilmington, Mass.</p>
+                <p>Haltom City, Texas</p>
               </div>
               <div className="company-div__sector">
-                <p>Life Insurance, Annuities and Retirement Investment</p>
+                <p>Digital Marketing</p>
               </div>
             </div>
           </div>
@@ -56,32 +56,32 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Serur Agencies is one of the fastest growing subsidiaries for the American income branch of Torchmark Corporation. Serur Agencies handles supplemental benefits to individuals and organizations globally.</p>
+          <p>Qualbe is a digital marketing company. Unlike a traditional agency, it invests its own marketing dollars to acquire online traffic, and its sales team converts them into customers. It removes the risk for its partners, so they can focus on delivering fantastic products and services. Qualbe's sweet spot is teaming up with subscription businesses.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
-            <img className="" src={Bg8} />
+            <img className="" src={Bg14} />
           </div>
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p> Wilmington, Mass.</p>
+              <p> Haltom City, Texas</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2015</p>
+              <p>1997</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Life Insurance, Annuities and Investment</p>
+              <p>Digital Marketing</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>70</p>
+              <p>60</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="http://www.SerurAgencies.com">http://www.SerurAgencies.com</a></p>                        
+              <p><a href="https://qualbe.com">https://qualbe.com</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

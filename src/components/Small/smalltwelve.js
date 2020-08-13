@@ -4,7 +4,7 @@ import '../../styles/company.scss';
 import Logo8 from '../../images/logo8.png';
 import Bg8 from '../../images/bg/bg8.png';
 
-export default class Smalleight extends Component {
+export default class Smalltwelve extends Component {
   constructor() {
     super();
 
@@ -24,7 +24,7 @@ export default class Smalleight extends Component {
           <div onClick={() => this.operation()}>
             <div className="company-grid">
               <div className="company-div__number">
-                <h2>8</h2>
+                <h2>12</h2>
               </div>
               <div className="company-div__logo">
                 <img src={Logo8} />
@@ -73,11 +73,11 @@ function Bio() {
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Life Insurance, Annuities and Investment</p>
+              <p>Life Insurance, Annuities and Retirement Investment</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>70</p>
+              <p>45</p>
             </div>
             <div className="bio-single">
               <p>Website</p>

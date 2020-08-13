@@ -62,39 +62,40 @@ function Bio() {
           <div className="bio-left-container">
             <img className="" src={Bg5} />
           </div>
-          <div className="bio-right-container">
-            <div className="bio-single">
-              <p>Location</p>
-              <p>Alpharetta, Ga.</p>
+            <div className="bio-right-container">
+              <div className="bio-single">
+                <p>Location</p>
+                <p>Alpharetta, Ga.</p>
+              </div>
+              <div className="bio-single">
+                <p>Year Founded</p>
+                <p>2015</p>
+              </div>
+              <div className="bio-single">
+                <p>Sector</p>
+                <p>IT Services Provider</p>
+              </div>
+              <div className="bio-single">
+                <p># of U.S. Employees</p>
+                <p>43</p>
+              </div>
+              <div className="bio-single">
+                <p>Website</p>
+                <p><a href="	http://www.vuesol.com">	http://www.vuesol.com</a></p>                        
+              </div>
+              <div>
+                <a href="https://www.facebook.com/">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://twitter.com/home?lang=en">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </div>
             </div>
-            <div className="bio-single">
-              <p>Year Founded</p>
-              <p>2015</p>
-            </div>
-            <div className="bio-single">
-              <p>Sector</p>
-              <p>IT Services Provider</p>
-            </div>
-            <div className="bio-single">
-              <p># of U.S. Employees</p>
-              <p>43</p>
-            </div>
-            <div className="bio-single">
-              <p>Website</p>
-              <p><a href="	http://www.vuesol.com">	http://www.vuesol.com</a></p>                        
-            </div>
-            <div>
-              <a href="https://www.facebook.com/">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-              <a href="https://twitter.com/home?lang=en">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-              <a href="https://www.linkedin.com/feed/">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

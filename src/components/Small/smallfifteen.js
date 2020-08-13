@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../../styles/company.scss';
 
-import Logo8 from '../../images/logo8.png';
-import Bg8 from '../../images/bg/bg8.png';
+import Logo15 from '../../images/logo15.png';
+import Bg15 from '../../images/bg/bg15.png';
 
-export default class Smalleight extends Component {
+export default class Smallfifteen extends Component {
   constructor() {
     super();
 
@@ -24,19 +24,19 @@ export default class Smalleight extends Component {
           <div onClick={() => this.operation()}>
             <div className="company-grid">
               <div className="company-div__number">
-                <h2>8</h2>
+                <h2>15</h2>
               </div>
               <div className="company-div__logo">
-                <img src={Logo8} />
+                <img src={Logo15} />
               </div>
               <div  className="company-div__name">
-                <p>Serur Agencies</p>
+                <p>Higher Learning Technologies</p>
               </div>
               <div className="company-div__location">
-                <p>Wilmington, Mass.</p>
+                <p>Coralville, Iowa</p>
               </div>
               <div className="company-div__sector">
-                <p>Life Insurance, Annuities and Retirement Investment</p>
+                <p>Edtech</p>
               </div>
             </div>
           </div>
@@ -56,32 +56,32 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Serur Agencies is one of the fastest growing subsidiaries for the American income branch of Torchmark Corporation. Serur Agencies handles supplemental benefits to individuals and organizations globally.</p>
+          <p>Higher Learning Technologies is the developer of a mobile learning platform for professionals. HLT uses this platform to turn textbooks into interactive, mobile learning applications and websites.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
-            <img className="" src={Bg8} />
+            <img className="" src={Bg15} />
           </div>
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p> Wilmington, Mass.</p>
+              <p>Coralville, Iowa</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2015</p>
+              <p>2012</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Life Insurance, Annuities and Investment</p>
+              <p>Edtech</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>70</p>
+              <p>41</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="http://www.SerurAgencies.com">http://www.SerurAgencies.com</a></p>                        
+              <p><a href="	http://htlcorp.com">	http://htlcorp.com</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">
