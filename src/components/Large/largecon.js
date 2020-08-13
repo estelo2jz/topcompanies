@@ -12,25 +12,21 @@ import Largeseven from './largeseven';
 import Largeeight from './largeeight';
 import Largenine from './largenine';
 import Largeten from './largeten';
-// import Largeeleven from './largeeleven';
-// import Largetwelve from './largeywelve';
-// import Largethirteen from './largethirteen';
-// import Largefourteen from './largefourteen';
-// import Largefifteen from './largefifteen';
-// import Largesixteen from './largesixteen';
-// import Largeseventeen from './largeseventeen';
-// import Largeeighteen from './largeeighteen';
-// import Largenineteen from './largenineteen';
-// import Largetwenty from './largetwenty';
-// import Largetwentyone from './largetwentyone';
-// import Largetwentytwo from './largetwentytwo';
-// import Largetwentyfour from './largetwentyfour';
-// import Largetwentythree from './largeywentythree';
-// import Largetwentyfive from './largewentyfive';
-// import Largetwentysix from './largewentysix';
-// import Largetwentyseven from './largetwentyseven';
-// import Largetwentyeight from './largetwentyeight';
-// import Largetwentynine from './largetwentynine';
+import Largeeleven from './largeeleven';
+import Largetwelve from './largetwelve';
+import Largethirteen from './largethirteen';
+import Largefourteen from './largefourteen';
+import Largefifteen from './largefifteen';
+import Largesixteen from './largesixteen';
+import Largeseventeen from './largeseventeen';
+import Largeeighteen from './largeeighteen';
+import Largenineteen from './largenineteen';
+import Largetwenty from './largetwenty';
+import Largetwentyone from './largetwentyone';
+import Largetwentytwo from './largetwentytwo';
+import Largetwentyfour from './largetwentyfour';
+import Largetwentythree from './largetwentythree';
+import Largetwentyfive from './largetwentyfive';
 
 export default class LargeCon extends Component {
   render() {
@@ -50,7 +46,7 @@ export default class LargeCon extends Component {
           <Largeeight />
           <Largenine />
           <Largeten />
-          {/* <Largeeleven />
+          <Largeeleven />
           <Largetwelve />
           <Largethirteen />
           <Largefourteen />
@@ -65,10 +61,6 @@ export default class LargeCon extends Component {
           <Largetwentythree />
           <Largetwentyfour />
           <Largetwentyfive />
-          <Largetwentysix />
-          <Largetwentyseven />
-          <Largetwentyeight />
-          <Largetwentynine /> */}
 
         </div>
       </div>

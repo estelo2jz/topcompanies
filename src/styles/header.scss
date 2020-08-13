@@ -1,0 +1,47 @@
+.header-outer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: #0e153a;
+
+  .header-container {
+    height: 100%;
+    .header-name {
+      color: white;
+      margin-bottom: -70px;
+      padding-left: 20px;
+      font-size: 1.5em;
+
+      
+      h1 {
+
+      }
+    }
+
+    .top-container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      height: 100%;
+      padding: 20px;
+      .top-name {
+        color: yellow;
+        font-size: 3em;
+        h1 {
+          margin: 0;
+        }
+      }
+      .bottom-name {
+        color: white;
+        font-size: 5em;
+        margin-top: -70px;
+        
+        h1 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
