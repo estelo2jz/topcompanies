@@ -31,14 +31,17 @@ export default class Smallone extends Component {
       <div className="company-container">
         <div className="company-inner-container">
           <div>
-            <div className="company-grid__company-background">
-              <div  className="company-div name">
-                <p>Company</p>
+            <div className="company-size">
+              <div className="size-name">
+                 <div className='size-name-container'>
+                  <p>Company</p>
+                 </div>
+
               </div>
-              <div className="company-div name">
+              <div className="size-location">
                 <p>Location</p>
               </div>
-              <div className="company-div name">
+              <div className="size-sector">
                 <p>Sector</p>
               </div>
             </div>

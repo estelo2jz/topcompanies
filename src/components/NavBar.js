@@ -12,35 +12,30 @@ function NavBar(props) {
         <Logo />
         <Header />
       </div>    */}
-      <NavLink
-        exact
-        activeClassName="navbar__link--active"
-        className="navbar__link"
-        to="/"
-      >
-        <p>Home</p>
-      </NavLink>
+      <div>
+        <p>BY COMPANY SIZE</p>
+      </div>
       <NavLink
         exact
         activeClassName="navbar__link--active"
         className="navbar__link"
         to="/small"
       >
-        <p>Small</p>
+        <p>SMALL</p>
       </NavLink>
       <NavLink
         activeClassName="navbar__link--active"
         className="navbar__link"
-        to="/Medium"
+        to="/medium"
       >
-        <p>Medium</p>
+        <p>MEDIUM</p>
       </NavLink>
       <NavLink
         activeClassName="navbar__link--active"
         className="navbar__link"
         to="/large"
       >
-        <p>Large</p>
+        <p>LARGE</p>
       </NavLink>
       {/* <NavLink
         className="navbar__link"

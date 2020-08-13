@@ -5,13 +5,15 @@ import './App.css';
 
 import Header from './components/Header';
 import NavBar from './components/NavBar';
-import Small from './components/Small/smalltwo';
-import CompanyNav from './components/CompanyNav';
+
 import SmallCon from './components/Small/SmallCon';
+import MediumCon from './components/Medium/mediumcon';
+import LargeCon from './components/Large/large';
 
 import SmallTest from './components/Small/small';
+import MediumTest from './components/Medium/medium';
+import LargeTest from './components/Large/large';
 
-import MediumCon from './components/Medium/mdiumcon';
 function App() {
   return (
     <div className="App">
@@ -19,9 +21,13 @@ function App() {
         <Header />
         <NavBar />
         <Switch>
-        <Route path="/smallcon" component={SmallCon} />
           <Route path="/small" component={SmallTest} />
-          <Route path="/medium" component={MediumCon} />
+          <Route path="/medium" component={MediumTest} />
+          <Route path="/large" component={LargeTest} />
+
+          <Route path="/smallcon" component={SmallCon} />
+          <Route path="/mediumcon" component={MediumCon} />
+          <Route path="/largecon" component={LargeCon} />
         </Switch>
       </Router>
     </div>

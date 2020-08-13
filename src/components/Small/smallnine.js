@@ -3,7 +3,6 @@ import '../../styles/company.scss';
 
 import Logo9 from '../../images/logo9.png';
 import Bg9 from '../../images/bg/bg9.png';
-import { lookup } from 'dns';
 
 export default class Smallnine extends Component {
   constructor() {

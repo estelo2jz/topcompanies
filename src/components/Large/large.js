@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import SmallCon from '../Small/SmallCon';
+import LargeCon from './largecon';
 
-export default class mdiumcon extends Component {
+export default class Large extends Component {
   render() {
     return (
       <div className="test-container">
         <div className="test-sample">
-          <SmallCon />
+          <LargeCon />
         </div>
       </div>
     )

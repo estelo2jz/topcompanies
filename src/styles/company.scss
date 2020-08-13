@@ -2,16 +2,39 @@
 .company-container {
   .company-inner-container {
     padding: 1px;
+
+    .company-size {
+      display: flex;
+      justify-content: space-around;
+      background-color: #000000;
+      padding: 0;
+      margin: 0;
+      color: white;
+
+      .size-name {
+        margin-left: 200px;
+
+        .size-name-container {
+        }
+      }
+
+      .size-location {
+        margin-left: 140px;
+      }
+
+      .size-sector {
+        margin-right: 110px;
+      }
+    }
     
     .company-grid {
       cursor: pointer;
-      background-color: #dee1ec;
+      background-color: #eee;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
       align-content: center;
       height: 15vh;
-
 
       &__company-background {
         background-color: black;
@@ -31,6 +54,11 @@
           }
         }
       }
+      .company-left {
+        display: flex;
+        justify-content: center;
+      }
+
 
       &__background {
         background-color: #e2f3f5;
@@ -46,10 +74,6 @@
           p { 
             padding: 10px 10px 10px 150px;
           }
-
-          &__number {
-            color: red;
-          }
         }
       }
       
@@ -60,7 +84,16 @@
           padding: 10px 10px 10px 150px;
           text-align: left;
         }
-
+        
+        
+        &__number {
+          h2 {
+            margin-left: 100px;
+          }
+        }
+        &__name {
+          font-weight: 600;
+        }
         &__number, &__sector {
           padding: 50px;
         }
@@ -68,7 +101,9 @@
           text-align: left;
           width: 200px;
           font-size: 1.2em;
+          display: flex;
         }
+
       }
 
     }
@@ -77,10 +112,7 @@
 
 // Company Nav Styles
 .company-nav {
-  background-color: #071e3d;
-  padding: 0;
-  margin: 0;
-  color: white;
+
 
   .company-flex {
     display: flex;
@@ -108,11 +140,9 @@
   align-content: center;
   width: 100%;
   height: 60vh;
-  background-color: #dee1ec;
+  background-color: #fafafa;
 
-  border-left: 5px solid red;
-  border-right: 5px solid red;
-  border-bottom: 5px solid red;
+
 
 }
 .bio-container {
@@ -136,14 +166,16 @@
 
     .bio-right-container {
       width: 400px;
+      border-bottom: 2px solid black;
+
       .bio-single {
         display: flex;
         justify-content: space-between;
         text-align: left;
-        width: 100%;
-
+        width: 400px;
         p {
           text-align: left;
+          width: 100%;
         }
         
       }
