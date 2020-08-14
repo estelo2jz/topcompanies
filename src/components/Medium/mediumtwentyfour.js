@@ -31,14 +31,14 @@ export default class Mediumtwentyfour extends Component {
                   <img src={Lo24} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>VICIS</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Seattle, Wash.</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Sports Technology</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>VICIS is a Seattle-based sports technology company. Its inaugural product, the ZERO1 football helmet, launched in 2017 and was worn by players on 18 NFL teams.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,23 +67,23 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Seattle, Wash.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2007</p>
+              <p>2013</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Sports Technology</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>89</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="https://vicis.com/">https://vicis.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

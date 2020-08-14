@@ -31,14 +31,14 @@ export default class Mediumnineteen extends Component {
                   <img src={Lo19} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>ACV Auctions</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Buffalo, N.Y.</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Automotive</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>ACV Auctions hosts live mobile auctions for new and used car dealers. Cars are listed and sold to dealerships nationwide in online, individual, 20-minute auctions without ever leaving the lot.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,23 +67,23 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Buffalo, N.Y.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2007</p>
+              <p>2015</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Automotive</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>246</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="http://acvauctions.com">http://acvauctions.com</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

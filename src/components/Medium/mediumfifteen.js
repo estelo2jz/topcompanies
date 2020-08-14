@@ -31,14 +31,14 @@ export default class Mediumfifteen extends Component {
                   <img src={Lo15} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>SpareFoot</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Austin, Texas</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Moving and Storage</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>SpareFoot.com is a marketplace for storage, making it easier to move and store your stuff. Its website lets you find and compare storage deals and rent online or by phone for free.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,23 +67,23 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Austin, Texas</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2007</p>
+              <p>2008</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Moving and Storage</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>90</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="https://www.sparefoot.com/">https://www.sparefoot.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

@@ -31,14 +31,14 @@ export default class Mediumseventeen extends Component {
                   <img src={Lo17} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>Zlien</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>New Orleans, La.</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Web-Based Services</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>Zlien is a collaboration-driven construction payment ecosystem that completes job information and empowers contractors, suppliers and other industry stakeholders to always get what they've earned. Customers use Zlien to exchange and collaborate around payment documents like lien waivers, pay applications and preliminary notices, and to complete the picture of who else is on their job, enabling better visibility, smooth paperwork exchanges and faster payments.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,7 +67,7 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>New Orleans, La.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
@@ -75,15 +75,15 @@ function Bio() {
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Web-Based Services</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>84</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="https://www.zlien.com/">https://www.zlien.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

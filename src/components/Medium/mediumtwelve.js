@@ -31,14 +31,14 @@ export default class Mediumtwelve extends Component {
                   <img src={Lo12} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>Hireology</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Chicago, Ill.</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Vertical Industry Software Products and Services</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>Hireology provides hiring software to small and medium-sized businesses to help business owners build their best teams.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,7 +67,7 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Chicago, Ill.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
@@ -75,7 +75,7 @@ function Bio() {
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Vertical Industry Software Products and Services</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>

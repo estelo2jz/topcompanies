@@ -31,14 +31,14 @@ export default class Mediumtwentynine extends Component {
                   <img src={Lo29} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>EDA Contractors</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Bensalem, Pa.</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Roofing and Siding</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>EDA specializes on the exterior envelope of all commercial, institutional and industrial buildings. Its exterior envelope includes wall panels and accessories; roofing; waterproofing; air and vapor barriers; masonry and vegetative roof systems.</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,23 +67,23 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Bensalem, Pa.</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2007</p>
+              <p>1999</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Roofing and Siding</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>197</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="http://www.edacontractor.com/">http://www.edacontractor.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">

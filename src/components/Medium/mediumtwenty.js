@@ -31,14 +31,14 @@ export default class Mediumtwenty extends Component {
                   <img src={Lo20} />
                 </div>
                 <div >
-                  <p>Acceleration Partners</p>
+                  <p>MX</p>
                 </div>
               </div>
               <div className="company-div__location">
-                <p>Needham, Mass.</p>
+                <p>Lehi, Utah</p>
               </div>
               <div className="company-div__sector">
-                <p>Advertising and Marketing</p>
+                <p>Financial technology</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function Bio() {
     <div className="bio-outer-container">
       <div className="bio-container">
         <div className="bio-summary">
-          <p>Acceleration Partners is an affiliate marketing agency focused on delivering brand-aligned customer acquisition programs for the world’s largest brands.</p>
+          <p>MX, a fintech provider, enables financial institutions and fintech companies to gather, enrich, present, and act on data</p>
         </div>
         <div className="bio-flex-container">
           <div className="bio-left-container">
@@ -67,23 +67,23 @@ function Bio() {
           <div className="bio-right-container">
             <div className="bio-single">
               <p>Location</p>
-              <p>Needham, Mass.</p>
+              <p>Lehi, Utah</p>
             </div>
             <div className="bio-single">
               <p>Year Founded</p>
-              <p>2007</p>
+              <p>2010</p>
             </div>
             <div className="bio-single">
               <p>Sector</p>
-              <p>Advertising and Marketing</p>
+              <p>Financial technology</p>
             </div>
             <div className="bio-single">
               <p># of U.S. Employees</p>
-              <p>93</p>
+              <p>153</p>
             </div>
             <div className="bio-single">
               <p>Website</p>
-              <p><a href="	https://www.accelerationpartners.com/">	https://www.accelerationpartners.com/</a></p>                        
+              <p><a href="https://data.mx.com/">https://data.mx.com/</a></p>                        
             </div>
             <div>
               <a href="https://www.facebook.com/">
