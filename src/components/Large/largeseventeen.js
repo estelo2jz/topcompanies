@@ -23,14 +23,16 @@ export default class Largeseventeen extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>17</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo17} />
-              </div>
-              <div  className="company-div__name">
-                <p>Cloudflare</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>17</h2>
+                </div>
+                <div>
+                  <img src={Lo17} />
+                </div>
+                <div>
+                  <p>Cloudflare</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>San Francisco, Calif.</p>

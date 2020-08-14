@@ -23,14 +23,16 @@ export default class Smallfive extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>5</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo5} />
-              </div>
-              <div  className="company-div__name">
-                <p>Vuesol Technologies</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>5</h2>
+                </div>
+                <div>
+                  <img src={Logo5} />
+                </div>
+                <div >
+                  <p>Vuesol Technologies</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Alpharetta, Ga.</p>

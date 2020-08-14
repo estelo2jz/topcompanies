@@ -33,10 +33,9 @@ export default class Smallone extends Component {
           <div>
             <div className="company-size">
               <div className="size-name">
-                 <div className='size-name-container'>
-                  <p>Company</p>
-                 </div>
-
+                <div className='size-name-container'>
+                <p>Company</p>
+                </div>
               </div>
               <div className="size-location">
                 <p>Location</p>

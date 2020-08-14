@@ -23,14 +23,16 @@ export default class Largefive extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>5</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo5} />
-              </div>
-              <div  className="company-div__name">
-                <p>Curriculum Associates</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>5</h2>
+                </div>
+                <div>
+                  <img src={Lo5} />
+                </div>
+                <div >
+                  <p>Curriculum Associates</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>North Billerica, Mass.</p>

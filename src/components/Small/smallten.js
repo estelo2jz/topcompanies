@@ -23,14 +23,16 @@ export default class Smallten extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>10</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo10} />
-              </div>
-              <div  className="company-div__name">
-                <p>Serur Agencies</p>
+              <div className="company-div__container">
+                <div >
+                  <h2>10</h2>
+                </div>
+                <div >
+                  <img src={Logo10} />
+                </div>
+                <div  >
+                  <p>Serur Agencies</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Wilmington, Mass.</p>

@@ -23,14 +23,16 @@ export default class Largethirteen extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>13</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo13} />
-              </div>
-              <div  className="company-div__name">
-                <p>Instructure</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>13</h2>
+                </div>
+                <div>
+                  <img src={Lo13} />
+                </div>
+                <div>
+                  <p>Instructure</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Salt Lake City, Utah</p>

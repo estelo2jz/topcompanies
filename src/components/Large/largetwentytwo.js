@@ -23,14 +23,16 @@ export default class Largetwentytwo extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>22</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo22} />
-              </div>
-              <div  className="company-div__name">
-                <p>CrossCountry Mortgage</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>22</h2>
+                </div>
+                <div>
+                  <img src={Lo22} />
+                </div>
+                <div >
+                  <p>CrossCountry Mortgage</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Brecksville, Ohio</p>

@@ -23,14 +23,16 @@ export default class Largetwentyfour extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>24</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo24} />
-              </div>
-              <div  className="company-div__name">
-                <p>WebPT</p>
+              <div  className="company-div__container">
+                <div>
+                  <h2>24</h2>
+                </div>
+                <div>
+                  <img src={Lo24} />
+                </div>
+                <div>
+                  <p>WebPT</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Phoenix, Ariz.</p>

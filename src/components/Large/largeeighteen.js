@@ -23,14 +23,16 @@ export default class Largeeighteen extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>18</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Lo18} />
-              </div>
-              <div  className="company-div__name">
-                <p>Inpro</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>18</h2>
+                </div>
+                <div>
+                  <img src={Lo18} />
+                </div>
+                <div >
+                  <p>Inpro</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Muskego, Wis.</p>

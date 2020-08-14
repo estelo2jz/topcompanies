@@ -22,15 +22,17 @@ export default class Smallone extends Component {
       <div className="company-container">
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
-            <div className="company-grid">
-              <div className="company-div__number">
-                <h2>1</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Scribelogo} />
-              </div>
-              <div  className="company-div__name">
-                <p>Scribe Media</p>
+            <div className="company-grid"> 
+              <div className="company-div__container">
+                <div>
+                  <h2>1</h2>
+                </div>
+                <div>
+                  <img src={Scribelogo} />
+                </div>
+                <div >
+                  <p>Scribe Media</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Austin, Texas</p>

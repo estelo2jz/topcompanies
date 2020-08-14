@@ -1,29 +1,25 @@
 // Company Container Styles
 .company-container {
+  width: 130vh;
   .company-inner-container {
     padding: 1px;
 
     .company-size {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly ;
       background-color: #000000;
       padding: 0;
       margin: 0;
       color: white;
 
+      p {
+        margin-right: 170px;
+      }
+
       .size-name {
-        margin-left: 200px;
 
         .size-name-container {
         }
-      }
-
-      .size-location {
-        margin-left: 140px;
-      }
-
-      .size-sector {
-        margin-right: 110px;
       }
     }
     
@@ -35,6 +31,8 @@
       align-items: center;
       align-content: center;
       height: 15vh;
+      width: 100%;
+      /*  changed here */
 
       &__company-background {
         background-color: black;
@@ -83,6 +81,22 @@
         p { 
           padding: 10px 10px 10px 150px;
           text-align: left;
+        }
+
+        &__container {
+          display: flex;
+          justify-content: space-around;
+          align-content: center;
+          align-items: center;
+          grid-column-gap: 30px;
+          width: 300px;
+          text-align: left;
+
+          p {
+            width: 200px;
+            font-weight: 600;
+            font-size: 1.1em;
+          }
         }
         
         

@@ -23,14 +23,16 @@ export default class Smallthree extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>3</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo3} />
-              </div>
-              <div  className="company-div__name">
-                <p>Maz</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>3</h2>
+                </div>
+                <div>
+                  <img src={Logo3} />
+                </div>
+                <div >
+                  <p>Maz</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p> ew York, N.Y.</p>

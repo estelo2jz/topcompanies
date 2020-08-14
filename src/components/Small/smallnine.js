@@ -23,14 +23,16 @@ export default class Smallnine extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>9</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo9} />
-              </div>
-              <div  className="company-div__name">
-                <p>Peerfit</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>9</h2>
+                </div>
+                <div>
+                  <img src={Logo9} />
+                </div>
+                <div >
+                  <p>Peerfit</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Orlando, Fla.</p>

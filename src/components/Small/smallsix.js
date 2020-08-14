@@ -23,14 +23,16 @@ export default class Smallsix extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>6</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo6} />
-              </div>
-              <div  className="company-div__name">
-                <p>AdvicePeriod</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>6</h2>
+                </div>
+                <div>
+                  <img src={Logo6} />
+                </div>
+                <div >
+                  <p>AdvicePeriod</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Los Angeles, Calif.</p>
