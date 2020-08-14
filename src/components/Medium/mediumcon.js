@@ -12,26 +12,25 @@ import Mediumseven from './mediumseven';
 import Mediumeight from './mediumeight';
 import Mediumnine from './mediumnine';
 import Mediumten from './mediumten';
-// import Mediumten from './mediumten';
-// import Mediumeleven from './mediumeleven';
-// import Mediumtwelve from './mediumtwelve';
-// import Mediumthirteen from './mediumthirteen';
-// import Mediumfourteen from './mediumfourteen';
-// import Mediumfifteen from './mediumfifteen';
-// import Mediumsixteen from './mediumsixteen';
-// import Mediumseventeen from './mediumseventeen';
-// import Mediumeighteen from './mediumeighteen';
-// import Mediumnineteen from './mediumnineteen';
-// import Mediumtwenty from './mediumtwenty';
-// import Mediumtwentyone from './mediumtwentyone';
-// import Mediumtwentytwo from './mediumtwentytwo';
-// import Mediumtwentyfour from './mediumtwentyfour';
-// import Mediumtwentythree from './mediumtwentythree';
-// import Mediumtwentyfive from './mediumtwentyfive';
-// import Mediumtwentysix from './mediumtwentysix';
-// import Mediumtwentyseven from './mediumtwentyseven';
-// import Mediumtwentyeight from './mediumtwentyeight';
-// import Mediumtwentynine from './mediumtwentynine';
+import Mediumeleven from './mediumeleven';
+import Mediumtwelve from './mediumtwelve';
+import Mediumthirteen from './mediumthirteen';
+import Mediumfourteen from './mediumfourteen';
+import Mediumfifteen from './mediumfifteen';
+import Mediumsixteen from './mediumsixteen';
+import Mediumseventeen from './mediumseventeen';
+import Mediumeighteen from './mediumeighteen';
+import Mediumnineteen from './mediumnineteen';
+import Mediumtwenty from './mediumtwenty';
+import Mediumtwentyone from './mediumtwentyone';
+import Mediumtwentytwo from './mediumtwentytwo';
+import Mediumtwentyfour from './mediumtwentyfour';
+import Mediumtwentythree from './mediumtwentythree';
+import Mediumtwentyfive from './mediumtwentyfive';
+import Mediumtwentysix from './mediumtwentysix';
+import Mediumtwentyseven from './mediumtwentyseven';
+import Mediumtwentyeight from './mediumtwentyeight';
+import Mediumtwentynine from './mediumtwentynine';
 
 export default class MediumCon extends Component {
   render() {
@@ -51,7 +50,7 @@ export default class MediumCon extends Component {
           <Mediumeight />
           <Mediumnine />
           <Mediumten />
-          {/* <Mediumeleven />
+          <Mediumeleven />
           <Mediumtwelve />
           <Mediumthirteen />
           <Mediumfourteen />
@@ -69,7 +68,7 @@ export default class MediumCon extends Component {
           <Mediumtwentysix />
           <Mediumtwentyseven />
           <Mediumtwentyeight />
-          <Mediumtwentynine /> */}
+          <Mediumtwentynine />
 
         </div>
       </div>
