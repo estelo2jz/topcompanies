@@ -23,14 +23,16 @@ export default class Smallthirteen extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>13</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo13} />
-              </div>
-              <div  className="company-div__name">
-                <p>BitGo</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>13</h2>
+                </div>
+                <div>
+                  <img src={Logo13} />
+                </div>
+                <div >
+                  <p>BitGo</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p> Palo Alto, Calif.</p>

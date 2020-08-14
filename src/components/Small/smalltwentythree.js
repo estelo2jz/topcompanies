@@ -23,14 +23,16 @@ export default class Smalltwentythree extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>23</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo23} />
-              </div>
-              <div  className="company-div__name">
-                <p>Impact</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>23</h2>
+                </div>
+                <div>
+                  <img src={Logo23} />
+                </div>
+                <div >
+                  <p>Impact</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Wallingford, Conn.</p>

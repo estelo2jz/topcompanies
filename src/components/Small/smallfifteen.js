@@ -23,14 +23,16 @@ export default class Smallfifteen extends Component {
         <div className="company-inner-container">
           <div onClick={() => this.operation()}>
             <div className="company-grid">
-              <div className="company-div__number">
-                <h2>15</h2>
-              </div>
-              <div className="company-div__logo">
-                <img src={Logo15} />
-              </div>
-              <div  className="company-div__name">
-                <p>Higher Learning Technologies</p>
+              <div className="company-div__container">
+                <div>
+                  <h2>15</h2>
+                </div>
+                <div>
+                  <img src={Logo15} />
+                </div>
+                <div >
+                  <p>Higher Learning Technologies</p>
+                </div>
               </div>
               <div className="company-div__location">
                 <p>Coralville, Iowa</p>
